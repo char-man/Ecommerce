@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--firs-color);
+  padding: 9px;
+}
+
+.logo{
+  color: var(--white-color);
+  font-size: 1.5em;
+  letter-spacing: 1.3px;
+}
+
+.profile-container{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  gap: 18px;
+}
+.profile-container a, .profile-container div{
+  color: var(--white-color);
+  font-size: 1.5em;
+}
+
+.pedido{
+  margin: 17px;
+  text-align: center;
+}
+
+
+
+

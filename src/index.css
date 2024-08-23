@@ -1,0 +1,79 @@
+:root{
+  --firs-color: #100e0e;
+  --second-color: #4A5C6A;
+  --treh-color: #ccd0cf;
+  --white-color: #fff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+li {
+  list-style: none;
+}
+
+.price{
+  font-weight: bolder;
+  color: var(--firs-color);
+  text-align: center;
+}
+
+
+/*Boton de whatssap*/
+.wst-bts{
+  background-color: var(--firs-color);
+  text-align: center;
+  width: 100%;
+  height: 2rem;
+  border-radius: 2px;
+  padding: 1.3rem;
+}
+.wst-bts div{
+  color: #fff;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 4px;
+  font-weight: bold;
+  font-size: 18px;
+}
+.wst-bts div a{
+  letter-spacing: 1px;
+  color: #fff;
+}
+.wst-bts{
+  box-shadow: 2px 5px 5px rgb(44, 43, 43);
+}
+body{
+  width: 100%;
+  font-family: Helvetica;
+}
+
+
+/*Intro*/
+.container_intro{
+  width: 100%;
+  color: var(--firs-color);
+  text-align: center;
+}
+.container_intro img {
+  width: 95%;
+}
+
+.intro_txt{
+  font-size: 27px;
+}
+.intro_bts_txt{
+  margin-bottom: 50px;
+}

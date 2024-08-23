@@ -1,0 +1,103 @@
+:root{
+  --describ-color:  #707473;
+  --firs-color: #100e0e;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: var(--firs-color);
+  z-index: -2;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  width: 45%;
+  cursor: pointer;
+  color: var(--describ-color);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.card img {
+  height: 200px;
+  object-fit: contain;
+  
+
+}
+.card section{
+  color: var(--describ-color);
+}
+.card section span{
+  color: var(--describ-color);
+}
+.card-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin-bottom: 5px;
+  font-size: 19px;
+  color: var(--firs-color);
+}
+.description{
+  margin-bottom: 2px;
+}
+.Talla{
+  color: var(--describ-color);
+  margin-bottom: 2px;
+}
+
+.card-reviews {
+  display: flex;
+  justify-content: center;
+}
+
+.rating-star {
+  color: #fbe646;
+}
+
+.total-reviews {
+  font-size: 0.9rem;
+  margin-left: 5px;
+}
+
+.card-price {
+  display: flex;
+  font-size: 16.5px;
+  justify-content: center;
+}
+
+.bag-icon {
+  color: var(--describ-color);
+}
+
+.colores{
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  justify-content: center;
+}
+.general{
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+}
+.blanco{
+  border: 0.1px solid #000;
+}
+.rojo{
+  background-color: pink;
+}
+.azul{
+  background-color: lightskyblue;
+}
+.negro{
+  background-color: #000;
+}

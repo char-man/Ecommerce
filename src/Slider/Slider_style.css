@@ -1,0 +1,30 @@
+
+.container-slider1, .container-slider1 span{
+    color: #999d9c;
+    font-size: 20px;
+    text-align: center;
+}
+
+.slider_title{
+    text-align: center;
+}
+
+.price{
+    font-weight: 900;
+    margin: 6px;
+    color: #100e0e;
+}
+
+.slider1-img{
+    height: 300px;
+}
+
+/*Arrow*/
+.arrow{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between;
+    position: relative;
+    top: 250px;
+    z-index: 100;
+}

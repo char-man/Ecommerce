@@ -1,0 +1,21 @@
+:root{
+  --back-color: #100e0e;
+}
+.recommended-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  font-weight: 900;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+
+.marcas{
+  color: var(--back-color);
+  text-align: center;
+  margin: 30px;
+}
+
+.otros{
+  margin: 100px;
+}

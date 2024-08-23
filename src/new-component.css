@@ -1,0 +1,94 @@
+:root{
+  --first: #fff;
+  --secon: #100e0e;
+}
+
+.content-slider1 {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border: 2px solid #ededed;
+  padding: 20px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.slider1-img img{
+  width: 100%;
+}  
+
+.container-slider1{
+  width: 92%;
+}
+
+
+  /*_______________Footer_____________*/ 
+.container-footer{
+  /* margin-bottom: 200px; */
+  background-color: #132532;
+  font-weight: bold;
+  color: var(--first);
+  line-height: 30px;
+}
+
+.container-footer span{
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--first);
+}
+
+.container-footer h3{
+  font-size: 24px;
+  margin-left: 12px;
+  padding-bottom: 8px;
+}
+
+.container-footer p{
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.container-footer .footer_logo{
+  padding: 10px;
+  color: var(--first);
+}
+.container-footer .footer_logo span{
+  color: var(--secon);
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer_socialmedia{
+  font-size: 20px;
+  display: flex;
+  display: flex;
+  margin: 20px 50px;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+/*________Up btns_______*/
+.up{
+  font-size: 40px;
+  color: var(--secon);
+  text-align: center;
+  border-radius: 60%;
+  background: var(--first);
+  height: 40px;
+  position:fixed;
+  top:  50%;
+  right: 10%;
+  z-index: 200;
+}
+
+
+/*_______ Duda _______*/
+.Duda{
+  margin: 20px;
+}
+
+.Duda_txt{
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
