@@ -20,11 +20,16 @@
 }
 
 /*Arrow*/
-.arrow{
+.arrow {
     display: flex;
     font-size: 35px;
-    justify-content: space-between;
     position: relative;
-    top: 250px;
+    justify-content: flex-end;
+    top: 200px;
     z-index: 100;
 }
+
+
+
+
+

@@ -10,10 +10,10 @@ const enlace = "https://wa.me/240222361146?text=Hola%2C%20me%20gustaria%20saber%
           <h3 className="card-title">{title}</h3>
           <p className="description">{description}</p>
           <section className="colores">
-            <span>Color:</span>  <div className={rojo?'general rojo':'null'}></div> <div className={negro?'general negro':'null'}></div><div className={azul?'general azul':'null'}></div> <div className={blanco?'general blanco':'null'}></div>
+            {/* <span>Color:</span>  <div className={rojo?'general rojo':'null'}></div> <div className={negro?'general negro':'null'}></div><div className={azul?'general azul':'null'}></div> <div className={blanco?'general blanco':'null'}></div> */}
           </section>
           <section>
-            <p className="Talla"><span>Talla:</span> {Talla}</p>
+            {/* <p className="Talla"><span>Talla:</span> {Talla}</p> */}
           </section>
           <section className="card-reviews">
             {star} {star} {star} {star}
