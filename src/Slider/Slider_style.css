@@ -1,12 +1,13 @@
 
 .container-slider1, .container-slider1 span{
-    color: #999d9c;
+    color: #000;
     font-size: 20px;
     text-align: center;
 }
 
 .slider_title{
     text-align: center;
+    font-weight: 900;
 }
 
 .price{
@@ -24,10 +25,13 @@
     display: flex;
     font-size: 35px;
     position: relative;
-    justify-content: flex-end;
+    width: 95%;
+    justify-content: space-between;
     top: 200px;
     z-index: 100;
 }
+
+/*Point*/
 
 
 

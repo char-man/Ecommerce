@@ -15,7 +15,7 @@ import Up from "./components/Up";
 import Duda from "./components/Duda";
 import Slider3 from "./Slider/slider3";
 import Slider4 from "./Slider/slider4";
-
+import SimpleCartDad from "./components/simple_cart"
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -84,11 +84,12 @@ function App() {
       {intro_data.map((el) =>{ return(<Intro img={el.img} text={el.text} key={el.id}/>)})}
       <Slider1 />
       <Slider2/>
-      <Recommended handleClick={handleClick} />
+      <Recommended handleClick={handleClick}/>
       <Products result={result} />
       <Up/>
       <Slider3/>
       <Slider4/>
+      <SimpleCartDad/>
       <Footer/>
     </>
   );

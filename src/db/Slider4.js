@@ -2,6 +2,13 @@ import Airforceblack from '../Recursos/Slider4/Airforceblack.jpg'
 import Airforcegreed from '../Recursos/Slider4/Airforcegreed.jpg'
 import Airmax97 from '../Recursos/Slider4/Airmax97.jpg'
 import Balenciagablack from '../Recursos/Slider4/Balenciagablack.jpg'
+import AirBlack from '../Recursos/Slider4/Air black.jpg';
+import LongAirOne from '../Recursos/Slider4/Air force longBlack.jpg';
+import AirForceOne from '../Recursos/Slider4/Air force one.jpg'
+import nike129 from '../Recursos/Slider4/Nike 129 (3).jpg'
+import Lv from '../Recursos/Slider4/Lv (2).jpg'
+
+
 
 const slider4 = [
     {
@@ -49,6 +56,46 @@ const slider4 = [
         title:'Air max 97',
         descrip:'43',
         price: "17.000",
+        id: 39,
+        zapatos: true
+    },
+    {
+        img: AirBlack,
+        title:'Air force one',
+        descrip:'43',
+        price: "16.500",
+        id: 39,
+        zapatos: true
+    },
+    {
+        img: LongAirOne,
+        title:'Air force one',
+        descrip:'43',
+        price: "16.500",
+        id: 39,
+        zapatos: true
+    },
+    {
+        img: AirForceOne,
+        title:'Air force one',
+        descrip:'43',
+        price: "16.500",
+        id: 39,
+        zapatos: true
+    },
+    {
+        img: nike129,
+        title:'Air max 129',
+        descrip:'43',
+        price: "18.500",
+        id: 39,
+        zapatos: true
+    },
+    {
+        img: Lv,
+        title:'Louis Vuitton',
+        descrip:'43',
+        price: "20.000",
         id: 39,
         zapatos: true
     },
